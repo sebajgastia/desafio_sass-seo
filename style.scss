@@ -1,0 +1,45 @@
+/*INDEX*/
+@import "colores";
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+/*MENU*/
+
+#menu{
+    li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: $colorPrimario;
+    form > button {
+        font-size: 18px;
+        font-weight: bold;
+
+        }
+    }
+}
+/*CARRUSEL*/
+
+.carousel-inner{
+    max-height: 39rem;
+  
+}
+/*FOOTER*/
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+    p {
+        color: $colorPrimario;
+        text-align: center;
+
+    }
+}
+
+#iconos i{
+    font-size:26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}

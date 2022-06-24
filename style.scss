@@ -9,16 +9,16 @@ body{
 /*MENU*/
 
 #menu{
-    li > a {
-    font-size: 18px;
-    font-weight: bold;
-    color: $colorPrimario;
-    form > button {
+    a {
+      font-size: 18px;
+      font-weight: bold;
+      color: $colorPrimario;
+    }
+    button {
         font-size: 18px;
         font-weight: bold;
-
-        }
     }
+    
 }
 /*CARRUSEL*/
 

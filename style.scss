@@ -1,6 +1,12 @@
 /*INDEX*/
 @import "colores";
 
+$estilos:(
+    color:blue,
+    tFuente:35px,
+    tColor:yellow,
+);
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
@@ -38,8 +44,31 @@ footer{
     }
 }
 
-#iconos i{
-    font-size:26px;
-    padding: 0 8px;
-    color: #f3f3f3;
+#iconos{
+    i{
+        font-size:26px;
+        padding: 0 8px;
+        color: #f3f3f3;
+    }
+}
+
+/*sass2*/
+
+.color-texto{
+    background-color: map-get($estilos, color );
+    color: map-get($estilos, tColor );
+    font-size: map-get($estilos, tFuente );
+}
+
+.span-text{
+    @extend .color-texto;
+    background-color: map-get($estilos, color );
+}
+
+@mixin negrita {
+    font-weight: bold;   
+}
+
+.color-texto{
+    @include negrita;
 }

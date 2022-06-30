@@ -34,4 +34,19 @@ footer p {
   font-size: 26px;
   padding: 0 8px;
   color: #f3f3f3;
+}
+
+/*sass2*/
+.color-texto, .span-text {
+  background-color: blue;
+  color: yellow;
+  font-size: 35px;
+}
+
+.span-text {
+  background-color: blue;
+}
+
+.color-texto, .span-text {
+  font-weight: bold;
 }/*# sourceMappingURL=style.css.map */
